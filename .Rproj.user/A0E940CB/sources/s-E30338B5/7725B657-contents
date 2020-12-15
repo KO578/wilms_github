@@ -1,0 +1,243 @@
+library(leaflet)
+library(rgdal)
+
+setwd("C:/Users/oldenk/Desktop/wilms_map")
+
+join<-read.csv("wiscland_join_info.csv",fileEncoding = 'UTF-8-BOM')
+
+subbasin<-readOGR(".","subbasins")
+subbasin <- spTransform(subbasin, CRS("+init=epsg:4326"))
+
+cal_man_9KE<-readOGR(".","cal_man_9KE_onterra")
+cal_man_9KE<- spTransform(cal_man_9KE, CRS("+init=epsg:4326"))
+
+flow<-readOGR(".","flow")
+flow <- spTransform(flow, CRS("+init=epsg:4326"))
+
+buffer<-readOGR(".","laes_buffer")
+buffer <- spTransform(buffer, CRS("+init=epsg:4326"))
+
+manitowoc_co_lidar<-readOGR(".","manitowoc_co_lidar_lakes")
+manitowoc_co_lidar <- spTransform(manitowoc_co_lidar, CRS("+init=epsg:4326"))
+
+nel_boundary<-readOGR(".","nel_boundary")
+nel_boundary<- spTransform(nel_boundary, CRS("+init=epsg:4326"))
+
+septic_parcel<-readOGR(".","septic_parcel_status")
+septic_parcel <- spTransform(septic_parcel, CRS("+init=epsg:4326"))
+
+septic_pts<-readOGR(".","septic_pts_status")
+septic_pts <- spTransform(septic_pts, CRS("+init=epsg:4326"))
+
+swat_routing<-readOGR(".","swat_routing")
+swat_routing <- spTransform(swat_routing, CRS("+init=epsg:4326"))
+
+wiscland_wilms<-readOGR(".","wiscland_wilms")
+wiscland_wilms <- spTransform(wiscland_wilms, CRS("+init=epsg:4326"))
+wiscland_wilms<-merge(wiscland_wilms,join,by="GRIDCODE")
+
+wiscland_wilms_updates<-readOGR(".","wiscland_wilms_updates")
+wiscland_wilms_updates<- spTransform(wiscland_wilms_updates, CRS("+init=epsg:4326"))
+
+impaired_lakes<-readOGR(".","impaired_lakes_2020")
+impaired_lakes<- spTransform(impaired_lakes, CRS("+init=epsg:4326"))
+
+setwd("C:/Users/oldenk/Desktop/subbasins_R_data")
+
+impaired_streams<-readOGR(".","2018_2020_streams")
+impaired_streams<- spTransform(impaired_streams, CRS("+init=epsg:4326"))
+
+county<-readOGR(".","counties")
+county<- spTransform(county, CRS("+init=epsg:4326"))
+
+
+#wiscland, color
+color<-c(rgb(170,0,0,.5,maxColorValue=255),
+         rgb(216,147,130,.5,maxColorValue=255),
+         rgb(242,238,134,.5,maxColorValue=255),
+         rgb(242,238,134,.5,maxColorValue=255),
+         rgb(242,238,134,.5,maxColorValue=255),
+         rgb(242,238,134,.5,maxColorValue=255),
+         rgb(230,226,161,.5,maxColorValue=255),
+         rgb(230,172,46,.5,maxColorValue=255),
+         rgb(230,172,46,.5,maxColorValue=255),
+         rgb(156,114,9,.5,maxColorValue=255),
+         rgb(156,114,9,.5,maxColorValue=255),
+         rgb(1,100,0,.5,maxColorValue=255),
+         rgb(1,100,0,.5,maxColorValue=255),
+         rgb(1,100,0,.5,maxColorValue=255),
+         rgb(106,184,106,.5,maxColorValue=255),
+         rgb(106,184,106,.5,maxColorValue=255),
+         rgb(106,184,106,.5,maxColorValue=255),
+         rgb(106,184,106,.5,maxColorValue=255),
+         rgb(106,184,106,.5,maxColorValue=255),
+         rgb(30,152,30,.5,maxColorValue=255),
+         rgb(207,235,250,.5,maxColorValue=255),
+         rgb(149,237,242,.5,maxColorValue=255),
+         rgb(112,163,186,.5,maxColorValue=255),
+         rgb(112,163,186,.5,maxColorValue=255),
+         rgb(112,163,186,.5,maxColorValue=255),
+         rgb(0,209,220,.5,maxColorValue=255),
+         rgb(0,209,220,.5,maxColorValue=255),
+         rgb(0,209,220,.5,maxColorValue=255),
+         rgb(15,124,130,.5,maxColorValue=255),
+         rgb(15,124,130,.5,maxColorValue=255),
+         rgb(15,124,130,.5,maxColorValue=255),
+         rgb(15,124,130,.5,maxColorValue=255),
+         rgb(15,124,130,.5,maxColorValue=255),
+         rgb(120,120,120,.5,maxColorValue=255),
+         rgb(146,174,47,.5,maxColorValue=255))
+         
+wisc_pal<-colorFactor(palette=color,domain=wiscland_wilms$GRIDCODE)
+label8<-sprintf("<strong> %s</strong>",
+                 wiscland_wilms$cls_desc_3)%>% lapply(htmltools::HTML)
+pal6<-colorFactor(palette=impair_cols, domain=impaired_streams$Pollutant_)
+
+label7<-sprintf("<strong> %s</strong>",
+                wiscland_wilms_updates$type)%>% lapply(htmltools::HTML)
+#subbasin prep
+label6<-sprintf("<strong> %s</strong>",
+                subbasin$GRIDCODE)%>% lapply(htmltools::HTML)
+
+#impaired streams prep
+impair_cols<-c("Blue", 
+               "#7D692A",
+               "#F12B0C",
+               "orange") #brown sediment & P
+label9<-sprintf("<strong> %s</strong><br/>Pollutant: %s",
+                impaired_streams$Label,impaired_streams$Pollutant_)%>% lapply(htmltools::HTML)
+pal6<-colorFactor(palette=impair_cols, domain=impaired_streams$Pollutant_)
+
+p = colorFactor(palette =c("Blue","Brown","Red","Orange"),domain= c("Delist","Sediment (TSS)","Phosphorus","Phosphorus & Sediment (TSS)"),ordered= TRUE)
+
+#septic parcel prep
+resident_col<-c("#F7580D",
+                "#498228")
+pal7<-colorFactor(palette=resident_col, domain=septic_parcel$permenent)
+p1 = colorFactor(palette =c("#F7580D","#498228"),domain= c("seasonal resident","permanent resident"),ordered= TRUE)
+
+#impaired lakes prep
+label10<-sprintf("<strong> %s</strong>",
+                 impaired_lakes$WATERBODY_)%>% lapply(htmltools::HTML)
+
+map=leaflet()  %>% 
+  addTiles(group = "Street View") %>% 
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  setView(lng = -87.870196, lat=44.104887,zoom=9) %>% 
+  addPolylines(data=county,
+               color="grey",
+               opacity=0.8,
+               group="County")%>%
+  addPolylines(data=flow,
+               weight=1,
+               color="blue",
+               opacity = 0.8,
+               group="flow, all")%>%
+  addPolylines(data=swat_routing,
+               weight=2,
+               color="blue",
+               opacity = 0.8,
+               group="flow, swat routing")%>%
+  addPolylines(data=subbasin,
+               color="black",
+               weight=1,
+               opacity=0.8,
+               group="subbasin",
+               label=label6,
+               highlight = highlightOptions(weight = 5,
+                                            color = "#666",
+                                            dashArray = "",
+                                            fillOpacity = 0.7,
+                                            bringToFront = TRUE),
+               labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+                                           textsize = "15px",
+                                           direction = "auto"))%>%
+  addPolylines(data=manitowoc_co_lidar,
+               color="#86EF56",
+               weight=2,
+               opacity=0.8,
+               group="Manitowoc Co lidar delineations")%>%
+  addPolylines(data=cal_man_9KE,
+               color="#F49C5E",
+               weight=2,
+               opacity=0.8,
+               group="Cal-Man 9KE Onterra delineations")%>%
+  addPolylines(data=impaired_streams,
+               color=~pal6(Pollutant_),
+               weight=2,
+               opacity = .8,
+               label=label9,
+               group="2020 Impaired Streams (TP & TSS)",
+               highlight = highlightOptions(weight = 5,
+                                            color = "#666",
+                                            dashArray = "",
+                                            fillOpacity = 0.7,
+                                            bringToFront = TRUE),
+               labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+                                           textsize = "15px",
+                                           direction = "auto"))%>%
+  addPolygons(data=impaired_lakes,
+              color="red",
+              fillOpacity=.7,
+              group="2020 Impaired Lakes (TP)",
+              label=label10,
+              highlight = highlightOptions(weight = 5,
+                                           color = "#666",
+                                           dashArray = "",
+                                           fillOpacity = 0.7,
+                                           bringToFront = TRUE),
+              labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+                                          textsize = "15px",
+                                          direction = "auto"))%>%
+  addPolylines(data=buffer,
+               color="#F45EDE",
+               weight=2,
+               opacity=0.8,
+               group="lakes buffer, 500ft")%>%
+  addPolylines(data=septic_parcel,
+               color=~pal7(permenent),
+               weight=2,
+               opacity=0.8,
+               group="septic parcels")%>%
+  addCircleMarkers(data=septic_pts,
+               radius = 5,
+               color=~pal7(permenent),
+               weight=2,
+               opacity=0.8,
+               group="septic points")%>%
+  
+  addPolygons(data=wiscland_wilms,
+              color=~wisc_pal(GRIDCODE),
+              fillOpacity=.5,
+              group="wiscland2",
+              label=label8,
+              highlight = highlightOptions(weight = 1,
+                                           color = "#666",
+                                           dashArray = "",
+                                           fillOpacity = 0.7,
+                                           bringToFront = TRUE),
+              labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+                                          textsize = "15px",
+                                          direction = "auto"))%>%
+  addPolygons(data=wiscland_wilms_updates,
+              color="grey",
+              fillOpacity=.5,
+              group="wiscland2 KO updates",
+              label=label7,
+              highlight = highlightOptions(weight = 1,
+                                           color = "#666",
+                                           dashArray = "",
+                                           fillOpacity = 0.7,
+                                           bringToFront = TRUE),
+              labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+                                          textsize = "15px",
+                                          direction = "auto"))%>%
+  
+
+  addLegend("bottomleft", pal=p, values=c("Delist","Sediment (TSS)","Phosphorus","Phosphorus & Sediment (TSS)"), title="2020 impaired streams",group="2020 Impaired Streams (TP & TSS)")%>%
+  addLegend("bottomleft", pal=p1, values=c("seasonal resident","permanent resident"), title="Septic Residency",group="septic points")%>%
+  addLayersControl(baseGroups = c("Street View", "Satellite"),
+                   overlayGroups=c("subbasin","County","flow, all","flow, swat routing","2020 Impaired Streams (TP & TSS)","2020 Impaired Lakes (TP)","Manitowoc Co lidar delineation","Cal-Man 9KE Onterra delineations" , "lakes buffer, 500ft","septic parcels","septic points","wiscland2","wiscland2 KO updates"),options = layersControlOptions(collapsed = FALSE))%>%
+  hideGroup(c("wiscland2","flow,all"))
+  map
+

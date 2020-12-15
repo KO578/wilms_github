@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>USDA-Forest Service, Chequamegon-Nicolet National Forest, Park Falls, Wisconsin and U.S. EPA Region 5, Chicago, Illinois.</origin>
+				<pubdate>2007</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Wisconsin Watershed Boundary Dataset: Fifth Level (Watershed) Hydrologic Units - 10-digit HUCs</title>
+				<edition>1</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Fort Worth, TX.</pubplace>
+					<publish>U. S. Department of Agriculture, Natural Resources Conservation Service.</publish>
+				</pubinfo>
+				<onlink>\\TXFORTWORTD199\c\wbd\wbd_review\wi\2007sept\wi_hu12_geo83</onlink>
+				<ftname Sync="TRUE">WT_NRCS_HUC10_REGN_AR_24K</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set is an extract of Watershed (10-digit) 5th level hydrologic units from the digital Watershed Boundary Dataset for the State of Wisconsin. This data set consists of geo-referenced digital data and associated attributes created in accordance with the "FGDC Proposal, Version 1.0 - Federal Standards For Delineation of Hydrologic Unit Boundaries 3/01/02" (http://www.ftw.nrcs.usda.gov/huc_data.html). These polygons are attributed with hydrologic unit codes and names for 5th level watersheds.  The native projection of the Watershed Boundary Dataset was UTM zone 16T.  This extract has been projected to the Wisconsin Transverse Mercator (WTM) coordinate system for use in DNR applications.  The dataset extent is the extent of 8-digit HUCs that intersect the state of Wisconsin.</abstract>
+			<purpose>The Watershed and Subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of subdividing large drainage areas. The smaller sized 6th level sub-watersheds (up to 40,000 acres) are useful for numerous application programs supported by a variety of local, State, and Federal Agencies. This data set is intended to be used as a tool for water-resource management and planning activities, particularly for site-specific and localized studies requiring a level of detail provided by large-scale map information. The dataset will be appended to a larger seamless nationally consistent geospatial database as other states complete their portion of the watershed boundary dataset.</purpose>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20070331</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Publication date of sources</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-93.581451</westbc>
+				<eastbc Sync="TRUE">-86.650318</eastbc>
+				<northbc Sync="TRUE">48.015536</northbc>
+				<southbc Sync="TRUE">41.265614</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">252649.549477</leftbc>
+				<rightbc Sync="TRUE">770017.476367</rightbc>
+				<bottombc Sync="TRUE">93157.157700</bottombc>
+				<topbc Sync="TRUE">838027.028675</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>HUC</themekey>
+				<themekey>Hydrologic Units</themekey>
+				<themekey>Hydrologic Unit Code</themekey>
+				<themekey>Region</themekey>
+				<themekey>Sub-region</themekey>
+				<themekey>Basin</themekey>
+				<themekey>Sub-basin</themekey>
+				<themekey>Watershed</themekey>
+				<themekey>Watershed Boundaries</themekey>
+				<themekey>boundaries</themekey>
+				<themekey>Subwatershed</themekey>
+				<themekey>WBD</themekey>
+				<themekey>Watershed Boundary Dataset</themekey>
+				<themekey>WI-HUC</themekey>
+				<themekey>Wisconsin Watershed Boundary Dataset</themekey>
+				<themekey>Wisconsin WBD</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>WI</placekey>
+				<placekey>USA</placekey>
+				<placekey>Chequamegon-Nicolet National Forest</placekey>
+				<placekey>St. Croix National Scenic Riverway</placekey>
+				<placekey>Great Lakes Basin</placekey>
+				<placekey>Mississippi River Basin</placekey>
+				<placekey>Upper Mississippi River Basin</placekey>
+				<placekey>Lake Superior Basin</placekey>
+				<placekey>Lake Michigan Basin</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in Wisconsin. NRCS should be acknowledged as the data source in products derived from these data. The Wisconsin Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions they make.  The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data.  If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale.  Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U. S. Department of Agriculture-Natural Resources Conservation Service</cntorg>
+					<cntper>Kent B. Pena</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>8030 Excelsior Drive, Suite 200</address>
+					<city>Madison</city>
+					<state>Wisconsin</state>
+					<postal>53717-2906</postal>
+				</cntaddr>
+				<cntvoice>608-662-4422 ext.274</cntvoice>
+				<cntemail>kent.pena@wi.usda.gov</cntemail>
+				<cntinst>Please email questions and requests.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Funding for the Wisconsin Watershed Boundary Dataset (WBD) was provided by the USDA Forest Service, Chequamegon-Nicolet National Forest and U.S. EPA, Region 5. Representatives from the Chequamegon-Nicolet National Forest (Dale Higgins, Walt Rasmussen, Lisa Brehm), U.S. EPA Region 5 (Milo Anderson, Joan Rogers, Andrew Bock, Walt Rasmussen), USGS Wisconsin Water Science Center (Jana Stewart, Cheryl Buchwald), Wisconsin Department of Natural Resources (Jim Baumann), Wisconsin Natural Resources Conservation Service (Annette Humpal), Minnesota Department of Natural Resources (Jim Solstad, Andrea Bergman), St. Croix National Scenic Riverway (Randy Ferrin, Marianna Young) have worked together in a combined effort, contributing a substantial amount of time and salary towards bringing the legacy dataset up to the criteria outlined in the Federal Standards for Delineation of Watershed Boundaries.</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+        100% of the attributes were visually verfied using 24K digital raster graphics (DRG's)
+        The accuracy of this data is dependent on the level of detail of the source material and the interprtation procedures for capturing that source.
+      </attraccr>
+		</attracc>
+		<logic>There are no unclosed polygons, intersections without nodes, or polygons without labels or with more than one label. ArcGIS `topology' rules for polygons were used to identify and correct intersections without nodes, unclosed polygons and remove duplicate lines with the same beginning and ending nodes. All sliver polygons were removed either using eliminate, merge or manually in ArcMap.</logic>
+		<complete>All fields for all polygons in the .pat are attributed. Some polygons in the Ncontrb_a field might have a 0 value. All fields for the lines in the .aat are attributed. </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+          The Wisconsin WBD was produced using Digital Raster Graphics (DRG's) as the source map. Data completeness for DRG files reflects content of the source graphic and may therefore be reflected in the completeness and accuracy of the WBD. The map was digitized from USGS 1:24,000-scale digital raster graphic base maps, with an inherited error of +/- 40 feet according to the USGS National Map Accuracy Standards.
+          It is estimated that any errors detected were less than 10%. It should also be noted that while general rules of hydrology were used (i.e. natural water flow is downhill), the locations of boundaries is still somewhat subjective as the 1:24,000-scale DRG's do not always provide enough information for identifying the location of the boundaries.
+        </horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>Unknown</pubdate>
+						<title>
+              USGS 7.5 Minute Topographic Quadrangle Sheets for the State of
+              Wisconsin
+            </title>
+						<geoform>map</geoform>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>USGS1</srccitea>
+				<srccontr>hydrologic unit map delineation and digitize map</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>Unknown</pubdate>
+						<title>Digital Raster Graphic</title>
+						<onlink>http://datagateway.nrcs.usda.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>USGSDRG</srccitea>
+				<srccontr>hydrologic unit map delineation and digitize map</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>Unknown</pubdate>
+						<title>Digital Orthophoto Quads</title>
+						<geoform>raster digital data</geoform>
+						<onlink>http://datagateway.nrcs.usda.gov</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>USGSDOQ</srccitea>
+				<srccontr>
+          GIS raster coverage used for reference in watershed
+          boundary delineation
+        </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>Unknown</pubdate>
+						<title>250K Hydrologic Unit Boundaries</title>
+					</citeinfo>
+				</srccite>
+				<srcscale>250000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>USGS2</srccitea>
+				<srccontr>Reference for 8-digit watershed delineation</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>Unknown</pubdate>
+						<title>National Hydrography Dataset</title>
+						<onlink>http://nhd.usgs.gov/data.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>NHD</srccitea>
+				<srccontr>
+          GIS coverage used for reference in watershed boundary
+          delineation
+        </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Wisconsin Depatment od Natural Resources</origin>
+						<pubdate>Unknown</pubdate>
+						<title>hydnw924</title>
+						<onlink>http://dnr.wi.gov/maps/gis/datahydro.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>WI-DNR</srccitea>
+				<srccontr>
+          GIS coverage used for reference in watershed boundary
+          delineation
+        </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Wisconsin Depatment od Natural Resources</origin>
+						<pubdate>Unknown</pubdate>
+						<title>wsdnw924</title>
+						<onlink>http://dnr.wi.gov/maps/gis/datahydro.html</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>WI-DNR</srccitea>
+				<srccontr>
+          GIS coverage used for reference in watershed boundary
+          Delineation
+        </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>USGS Wisconsin Water Science Center</origin>
+						<pubdate>Unknown</pubdate>
+						<title>widrain</title>
+						<onlink>http://waterdata.usgs.gov/wi/nwis/sw</onlink>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>unknown</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>map delineation</srccurr>
+				</srctime>
+				<srccitea>USGS Wisconsin Water Science Center</srccitea>
+				<srccontr>
+          GIS coverage used for reference in watershed boundary
+          delineation
+        </srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The method of delineation used for generation of this dataset at the onset was done from lines hand delineated on 36"x42" paper maps produced from 7.5 minute quadrangle maps (drg's) to a scale of 1:9000 then digitized on screen using ArcInfo.</procdesc>
+				<srcused>USGS1</srcused>
+				<procdate>Unknown</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Recent data was digitized electronically within Arcmap, referencing the Digital Raster Graphics, and additional base layers such as the Digital Ortho Quarter Quads, and National Hydrography Dataset. A determined effort has been made to develop new linework within the National Standards for Spatial Data Accuracy (NSSDA) for 1:24,000 scale and bring historic data within the standard.</procdesc>
+				<srcused>USGSDRG</srcused>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Edge-matching with Illinois, Iowa, Michigan and Minnesota has been coordinated and completed.</procdesc>
+				<srcused>NA</srcused>
+				<procdate>2007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Wisconsin's original dataset attribution was reviewed and revised to reflect the updates and changes made to the dataset. These revisions to the attribution were also made to ensure that the dataset met the Federal Standards for Delineation of Hydrologic Unit Boundaries. The NHD was used during this process to help with the naming and downstream coding of each hydrologic unit. In some instances there were name discrepancies between the NHD and what was printed on the DRG's. In these instances the DRG's were used.</procdesc>
+				<srcused>NHD</srcused>
+				<srcused>USGSDRG</srcused>
+				<procdate>2007</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="NEL_boundary_June2020_2"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+				<projcsn Sync="TRUE">WTM83/91</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">meters</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.001024</absres>
+						<ordres Sync="TRUE">0.001024</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="NEL_boundary_June2020_2">
+			<enttyp>
+				<enttypl Sync="TRUE">NEL_boundary_June2020_2</enttypl>
+				<enttypd>identifies watershed boundaries</enttypd>
+				<enttypds>n/a</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_AREA</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+		<overview>
+			<eadetcit>Federal Standard for Delineation of Hydrologic Unit Boundaries</eadetcit>
+			<dsoverv>This dataset is an extract of 10-digit HUCs from the original 12-digit HUC Watershed Boundary Dataset (WBD).  The 12-digit HUC polygon dataset contains the full list of attributes associated with the WBD.  The native projection of WBD was UTM zone 16T.  This extract has been projected to the Wisconsin Transverse Mercator (WTM) coordinate system for use in DNR applications.  The dataset extent is the extent of 8-digit HUCs that intersect the state of Wisconsin.</dsoverv>
+			<eaover>
+        This is a description of attributes by field from the Federal Standards for Delineation of Hydrologic Unit Boundaries.
+
+        Polygon attributes:
+
+        HUC10_CODE:	Ten Digit Hydrologic Unit Code - (REQUIRED)
+        This field provides a unique 10-digit code for each watershed.  This same number was used in every record that pertains to a subwatershed that resides within the same 10-digit watershed. Numbers were assigned in an upstream to downstream fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion.
+
+        HUC10_NAME: Fifth Level Hydrologic Unit Name - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+        This field used officially recognized names only.  This field was populated by following the directions in subsection 6.3 "Watershed and Subwatershed Naming Protocol".  The name used to attribute the watershed was used only once within a 4th level unit.
+      </eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Kent Pena</cntper>
+					<cntorg>USDA-NRCS-WI</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>8030 Excelsior Drive Suite 200</address>
+					<city>Madison</city>
+					<state>Wisconsin</state>
+					<postal>53717-2906</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>608-662-4422 ext. 274</cntvoice>
+				<cntemail>kent.pena@wi.usda.gov</cntemail>
+				<cntinst>please e-mail with data requests.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in Wisconsin. U.S. Department of Agriculture makes no claims for the data's suitability for other purposes. U.S. Department of Agriculture should be acknowledged as the data source in products derived from these data. The Wisconsin Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the U.S. Department of Agriculture or the Natural Resources Conservation Service any authority for the decisions they make.  The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data.  If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale.  Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Arc Export</formname>
+					<filedec>none</filedec>
+					<transize>22.463</transize>
+					<dssize Sync="TRUE">22.044</dssize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://datagateway.nrcs.usda.gov</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20081215</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Milo Anderson</cntper>
+					<cntorg>U.S. EPA</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>77W Jackson Blvd.</address>
+					<city>Chicago</city>
+					<state>Illinois</state>
+					<postal>60604</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>312-886-6096</cntvoice>
+				<cntemail>anderson.milo@epa.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta>
+	</metainfo>
+	<Esri>
+		<CreaDate>20201205</CreaDate>
+		<CreaTime>21325900</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20200626</SyncDate>
+		<SyncTime>17361400</SyncTime>
+		<ModDate>20200626</ModDate>
+		<ModTime>17361400</ModTime>
+		<DataProperties><itemProps><itemName Sync="TRUE">NEL_boundary_June2020_2</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\dnr\gis\WD_Projects\DNR\Water\TMDL\Projects\NE_Lakeshore\D_Data\a_gis\a_primary\a_SWAT_data\NEL_Nov_2018.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn><projcsn Sync="TRUE">NAD_1983_HARN_Transverse_Mercator</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_HARN_Transverse_Mercator&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983_HARN&amp;quot;,DATUM[&amp;quot;D_North_American_1983_HARN&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,520000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,-4480000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-90.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-5100900&lt;/XOrigin&gt;&lt;YOrigin&gt;-14478100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits></coordRef><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110113" Time="155218">FeatureClassToFeatureClass "Database Connections\DNR_SDE.sde\SDEDNR.EN_NRCS_WBD_HUC_DATA_24K\SDEDNR.EN_NRCS_WBD_HUC10_REGN_AR_24K" W:\P_Export_Tool\GIS\Inputs\State_Wide HUC_10.shp # "HUC10_CODE "HUC10_CODE" true true false 15 Text 0 0 ,First,#,Database Connections\DNR_SDE.sde\SDEDNR.EN_NRCS_WBD_HUC_DATA_24K\SDEDNR.EN_NRCS_WBD_HUC10_REGN_AR_24K,HUC10_CODE,-1,-1;HUC10_NAME "HUC10_NAME" true true false 120 Text 0 0 ,First,#,Database Connections\DNR_SDE.sde\SDEDNR.EN_NRCS_WBD_HUC_DATA_24K\SDEDNR.EN_NRCS_WBD_HUC10_REGN_AR_24K,HUC10_NAME,-1,-1;SHAPE_AREA "SHAPE_AREA" false false true 0 Double 0 0 ,First,#,Database Connections\DNR_SDE.sde\SDEDNR.EN_NRCS_WBD_HUC_DATA_24K\SDEDNR.EN_NRCS_WBD_HUC10_REGN_AR_24K,SHAPE.AREA,-1,-1;SHAPE_LEN "SHAPE_LEN" false false true 0 Double 0 0 ,First,#,Database Connections\DNR_SDE.sde\SDEDNR.EN_NRCS_WBD_HUC_DATA_24K\SDEDNR.EN_NRCS_WBD_HUC10_REGN_AR_24K,SHAPE.LEN,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20200626" Time="172448">Dissolve "Tributary Basins" T:\Projects\NE_Lakeshore\D_Data\a_gis\a_primary\a_SWAT_data\NEL_Nov_2018.gdb\Trib_basins_2 TRIB # MULTI_PART DISSOLVE_LINES</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\Merge" Date="20200626" Time="173433">Merge Trib_basins_2 T:\Projects\NE_Lakeshore\D_Data\a_gis\a_primary\a_SWAT_data\NEL_Nov_2018.gdb\NEL_boundary_June2020 "TRIB "TRIB" true true false 100 Text 0 0 ,First,#,Trib_basins_2,TRIB,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,Trib_basins_2,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,Trib_basins_2,Shape_Area,-1,-1"</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20200626" Time="173618">Dissolve NEL_boundary_June2020 T:\Projects\NE_Lakeshore\D_Data\a_gis\a_primary\a_SWAT_data\NEL_Nov_2018.gdb\NEL_boundary_June2020_2 # # MULTI_PART DISSOLVE_LINES</Process></lineage><copyHistory><copy source="T:\GIS\PRESTO\State_Wide\Inputs\HUC_10" dest="\\dnr\gis\wd_projects\dnr\water\tmdl\GIS\Statewide_Coverages\HUC\HUC_10" date="20111228" time="14145000"></copy></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="eng" country="US"></languageCode>
+			<countryCode value="USA" Sync="TRUE"></countryCode></dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">NEL_boundary_June2020_2</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">294832.608398</westBL>
+					<eastBL Sync="TRUE">770017.476378</eastBL>
+					<northBL Sync="TRUE">734396.407452</northBL>
+					<southBL Sync="TRUE">93157.157697</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-92.964298</westBL>
+			<eastBL Sync="TRUE">-86.709079</eastBL>
+			<northBL Sync="TRUE">47.083078</northBL>
+			<southBL Sync="TRUE">41.271162</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="eng"></languageCode>
+		<countryCode value="USA" Sync="TRUE"></countryCode></mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="006"></CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">file://\\NRCOWT215000393\C\Geo\HUC_new_draft\Final\wbdhu10_a_wi_WTM.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">22.044</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE" code="0">WTM83/91</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="NEL_boundary_June2020_2"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<mdDateSt Sync="TRUE">20200626</mdDateSt>
+</metadata>
