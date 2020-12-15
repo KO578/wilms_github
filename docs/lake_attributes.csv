@@ -1,0 +1,49 @@
+Lake,WBIC,County,x9KE_plan,Lake_Type_NR_10206_confirmed_by_MG,Lake_Type_ROW,type_comment,Priority,Stratified,TP_critiera_NR_10206,area_ac,depth_mean_ft_ROW,depth_max_ft_ROW ,volume_ac_ft_lake_maps,vol_medium_est_ROW_ac_ft,volume_final_ac_ft,volume_source,stratified_equation_NR_1024,subbasin,subbasins_in_SWAT,subbasins_in_SWAT_correct,subbasins_out_SWAT,subbasins_out_SWAT_correct,internally_drained_swat,internally_drained_swat_correct,seasonal_septic,permanent_septic,total_septic,monitoring_station_SWIMS,gsm_2015_to_2020,count_2015_to_2020,gsm_all,count_all,min_date_all,max_date_all
+Becker,77300,Calumet,cal-man (included wilms),Drainage,Drainage,,impaired,Yes,30,35.16,15,51,510.7,,510.7,lake map,13.4,SUBBA_187,1 to many,unsure,yes,yes,no,yes,1,2,3,BeckersÿLakeÿ-ÿDeepestÿPart,0.484,29,0.429,55,8/8/1979,9/8/2020
+Boot,77600,Calumet,cal-man (included wilms),Seepage,Drainage,"Currently listed as Drainage in ROW, but is actually Seepage (per MG). Denis previously didn't change it because Onterra LLC recently (2019) changed it to drainage fo the 9KE pan. ",impaired,Yes,20,10.51,6,15,86.4,,86.4,lake map,7.1,SUBBA_180,0,yes,no,"yes, outlet does not continually flow",yes,yes,,6,6,BootÿLakeÿ-ÿDeepestÿPart,0.836,22,0.655,39,8/20/1979,9/18/2017
+Bullhead,68300,Manitowoc,"No, but a mgmt plan (included wilms)",Seepage,Drainage,"Currently listed as Drainage in ROW, but is actually Seepage (per MG). Denis previously didn't change it because Onterra LLC recently (2019) changed it to drainage for a mgmt plan.  ",impaired,Yes,20,69.52,13,40,878.4,,878.4,lake map,8.3,SUBBA_178,0,yes,no,yes,yes,yes,3,21,24,BullheadÿLakeÿ-ÿDeepÿHole,0.296,41,0.152,132,7/21/1990,8/25/2020
+Carstens,66800,Manitowoc,pine creek (no wilms),Drainage,Drainage,,impaired,Yes,30,22.34,12,30,249,,249,lake map,9.5,SUBBA_176,0,yes,yes,yes,no,yes,4,6,10,CarstensÿLakeÿ-ÿDeepÿHoleÿ-ÿMiddle,0.095,18,0.193,63,7/12/1976,9/2/2020
+East Alaska,94200,Kewaunee,,Drainage ,Drainage ,,low,No,30,50.36,17,50,896.2,876.6,896.2,lake map,11.6,,,,,,,,,,,EastÿAlaskaÿLakeÿ-ÿDeepÿHole,0.013,3,0.129,80,7/27/1973,9/7/2018
+Eaton North ,68400,Manitowoc,,Seepage,Seepage,,high,No,,5.45,,24,,60.8,60.8,lake map,21.0,,,,,,,,,,,EatonÿTwinÿLakeÿ-ÿNorthÿ-ÿDeepÿHole,0.011,1,0.018,3,7/22/2012,7/28/2015
+Eaton South,68700,Manitowoc,,,Seepage,,high,No,,5.56,,21,,61.7,61.7,lake map,17.9,,,,,,,,,,,EatonÿTwinÿLakeÿ-ÿSouthÿ-ÿDeepÿHole,0.029,1,0.035,3,7/22/2012,7/28/2015
+English,68100,Manitowoc,,Seepage,Seepage,,impaired,Yes,20,47.95,,80,,1538.7,1538.7,ROW medium estimate,18.9,SUBBA_177,0,yes,yes,"no, outlet does not does not continually flow",no,no,31,29,60,EnglishÿLakeÿ-ÿDeepÿHole,0.028,18,0.078,39,7/12/1976,8/29/2020
+Gass,67100,Manitowoc,pine creek (no wilms),Drainage,Drainage,,impaired,Yes,30,5.98,,24,73.7,,73.7,lake map,18.8,SUBBA_175,0 to many,unsure,no,"no, a continually flowing outlet exisits ",yes,no,0,4,4,GassÿLakeÿ-ÿDeepestÿPoint,0.106,13,0.083,23,7/12/1976,9/1/2020
+Harpt,84600,Kewaunee,,Seepage,Seepage,,impaired,Yes,20,32.2,,54,623.9,,623.9,lake map,14.7,SUBBA_181,0 to 1,"unsure, probably not",yes,"no, outlet does not does not continually flow",no,no,4,4,8,HarptÿLakeÿ-ÿDeepÿHole,0.038,18,0.056,49,6/6/1977,9/1/2020
+Hartlaub Lake,67200,Manitowoc,pine creek (no wilms),Drainage,Drainage,,impaired,Yes,30,37.41,20,60,684.68,,684.68,lake map,15.4,SUBBA_174,0,yes,yes,yes,no,yes,2,10,12,HartlaubÿLakeÿ-ÿDeepÿHole,0.041,15,0.137,37,7/22/1981,9/1/2020
+Horseshoe,64200,Manitowoc,,,Seepage,,medium (on edge),No,,20.56,25,54,549.6,526.5,549.6,lake map,17.8,,,,,,,,,,,HorseshoeÿLakeÿ-ÿDeepÿHole,0.026,12,0.034,28,6/19/1996,6/24/2020
+Long,77500,Manitowoc,cal-man (included wilms),Drainage,Drainage,,impaired,Yes,30,127.28,,38,1373.08,,1373.08,lake map,6.7,SUBBA_182,0 to many,unsure,yes,yes,no,yes,36,38,74,LongÿLakeÿ-ÿDeepÿHole,0.332,35,0.262,146,7/22/1981,8/17/2020
+Pigeon,64000,Manitowoc,,Seepage,Seepage,,medium (on edge),No,,79.69,20,67,,1635.4,1635.4,ROW medium estimate,13.5,,,,,,,,,,,PigeonÿLakeÿ-ÿDeepestÿPart,0.02,21,0.019,70,7/24/1978,8/19/2020
+Round,68600,Calumet,cal-man (included wilms),Seepage,Drainage,"Currently listed as Drainage in ROW, but is actually Seepage (per MG). Denis previously didn't change it because Onterra LLC recently (2019) changed it to drainage fo the 9KE pan. ",impaired,Yes,20,11.37,,55,242.05,,242.05,lake map,25.1,SUBBA_179,0,yes,no,"yes, outlet does not continually flow",yes,yes,1,2,3,RoundÿLakeÿ-ÿDeepÿHole,0.365,23,0.364,43,7/12/1976,9/18/2017
+Shea,85400,Kewaunee,,Seepage,Seepage,,impaired,Yes,30,31.52,11,24,348.1,,348.1,lake map,6.5,SUBBA_195,0,yes,yes,unsure,no,unsure,1,4,5,SheasÿLakeÿ-ÿDeepestÿArea,0.051,6,0.063,13,7/7/1976,9/7/2018
+Shoe,46700,Manitowoc,,Seepage,Seepage,,high ,No,20,9.51,22,34,194.7,196.6,194.7,lake map,17.5,,,,,,,,,,,ShoeÿLakeÿ-ÿDeepÿHole,0.024,12,0.021,18,7/22/2012,9/1/2020
+Silver,67400,Manitowoc,,Drainage,Drainage,,impaired,Yes,30,72.61,16,40,949,,949,lake map,8.2,SUBBA_60,0,yes,yes,yes,no,yes,2,13,15,SilverÿLakeÿ-ÿEastÿBasinÿDeepÿSpot,0.057,14,0.26,108,7/17/2003,7/28/2020
+Tuma,87900,Manitowoc,,Seepage,Seepage,,medium (on edge),No,20,14.02,11,36,148,155,148,lake map,14.4,,,,,,,,,,,TumaÿLakeÿ-ÿDeepÿHole,0.019,13,0.028,28,7/7/1976,7/26/2020
+West Alaska,94300,Kewaunee,,Seepage,Seepage,,medium (on edge),No,20,26.65,15,41,295.5,328.3,295.5,lake map,12.0,,,,,,,,,,,WestÿAlaskaÿLakeÿ-ÿDeepÿHole,0.018,7,0.019,8,8/21/2003,9/7/2017
+Weyers,49400,Manitowoc,pine creek (no wilms),Seepage,Seepage,,impaired,Yes,20,5.61,,32,91.3,,91.3,lake map,27.1,SUBBA_173,0,yes,no,yes,yes,yes,0,0,0,WeyersÿLakeÿ-ÿDeepÿHole,0.049,12,0.08,26,6/6/1977,7/27/2020
+Wilke ,58000,Manitowoc,,,Seepage,,medium (on edge),No,,92.53,9,21,809.7,848.9,809.7,lake map,4.0,,,,,,,,,,,WilkeÿLakeÿ-ÿDeepÿHole,0.02,21,0.02,32,8/30/1988,8/30/2020
+Wolf,60800,Fond du Lac,,Drainage ,Drainage ,,high,No,,75.02,19,47,1429,1424.1,1429,lake map,9.6,,,,,,,,,,,WolfÿLakeÿ-ÿDeepÿHole,0.037,7,0.188,26,9/13/1994,9/10/2019
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
